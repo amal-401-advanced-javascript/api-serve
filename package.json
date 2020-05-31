@@ -1,0 +1,23 @@
+{
+  "name": "api-serve",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amal-401-advanced-javascript/api-serve.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/amal-401-advanced-javascript/api-serve/issues"
+  },
+  "homepage": "https://github.com/amal-401-advanced-javascript/api-serve#readme"
+}

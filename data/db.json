@@ -1,0 +1,27 @@
+{
+  "categories": [
+    {
+      "name": "fruits",
+      "display_name": "Red-Fruits",
+      "description": "Natural red foods are healthy and high in nutrients, a great source of vitamins and a perfect product for consuming those much loved antioxidants.",
+      "_id": 2
+    }
+  ],
+  "products": [
+    {
+      "category": "grocery products",
+      "name": "grocery products list",
+      "display_name": "vegetables and fruits",
+      "description": " classified depending on which part of the plant they come from. A fruit develops from the flower of a plant, while the other parts of the plant are categorized as vegetables. Fruits contain seeds, while vegetables can consist of roots, stems and leaves.",
+      "_id": 1
+    },
+    {
+      "name": "lemon",
+      "category": "grocery products",
+      "description": "yellow lemon",
+      "price": 1.99,
+      "apiId": "v1",
+      "_id": 2
+    }
+  ]
+}
