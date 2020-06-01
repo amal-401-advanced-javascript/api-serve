@@ -5,6 +5,12 @@
       "display_name": "Red-Fruits",
       "description": "Natural red foods are healthy and high in nutrients, a great source of vitamins and a perfect product for consuming those much loved antioxidants.",
       "_id": 2
+    },
+    {
+      "name": "fruits",
+      "display_name": "lemon",
+      "description": "yellow lemon",
+      "_id": 3
     }
   ],
   "products": [
