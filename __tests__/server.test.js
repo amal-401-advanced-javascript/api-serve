@@ -4,20 +4,56 @@ const {server} = require('../lib/server.js');
 const supertest = require('supertest');
 const mockRequest = supertest(server);
 
-describe('sever', () => {
-  it('should respond with 404 on an invalid route', () => {
-    return mockRequest.get('/401-class').then((results) => {
-      expect(results.status).toBe(404);
+
+describe('404 middleware module',()=>{
+  it('it should response with status 200',()=>{
+    return mockRequest.get('/api/v1/products/1').then((result)=>{
+      expect(result.status).toBe(200);
     });
   });
-  it('should respond with 404 on an invalid method', () => {
-    return mockRequest.delete('/products').then((results) => {
-      expect(results.status).toBe(404);
+  it('it should response with status 200',()=>{
+    return mockRequest.get('/api/v1/products').then((result)=>{
+      expect(result.status).toBe(200);
     });
   });
-  it('should respond with 200 on /api/v1/food', () => {
-    return mockRequest.get('/api/v1/food').then((results) => {
-      expect(results.status).toBe(200);
+  it('it should response with status 200',()=>{
+    return mockRequest.put('/api/v1/products/1').then((result)=>{
+      expect(result.status).toBe(200);
     });
   });
-});
+  it('it should response with status 200',()=>{
+    return mockRequest.post('/api/v1/products').then((result)=>{
+      expect(result.status).toBe(200);
+    });
+  });
+  it('it should response with status 200',()=>{
+    return mockRequest.delete('/api/v1/products/1').then((result)=>{
+      expect(result.status).toBe(200);
+    });
+  });
+  it('it should response with status 200',()=>{
+    return mockRequest.get('/api/v1/categories/1').then((result)=>{
+      expect(result.status).toBe(200);
+    });
+  });
+  it('it should response with status 200',()=>{
+    return mockRequest.get('/api/v1/categories').then((result)=>{
+      expect(result.status).toBe(200);
+    });
+  });
+  it('it should response with status 200',()=>{
+    return mockRequest.put('/api/v1/categories/1').then((result)=>{
+      expect(result.status).toBe(200);
+    });
+  });
+  it('it should response with status 200',()=>{
+    return mockRequest.post('/api/v1/categories').then((result)=>{
+      expect(result.status).toBe(200);
+    });
+  });
+  it('it should response with status 200',()=>{
+    return mockRequest.delete('/api/v1/categories/1').then((result)=>{
+      expect(result.status).toBe(200);
+    });
+  });
+}); 
