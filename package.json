@@ -25,11 +25,15 @@
   "homepage": "https://github.com/amal-401-advanced-javascript/api-serve#readme",
   "devDependencies": {
     "eslint": "^7.1.0",
-    "jest": "^26.0.1"
+    "jest": "^26.0.1",
+    "@code-fellows/supergoose": "^1.0.2"
   },
   "dependencies": {
+    "cors": "^2.8.5",
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
+    "mongoose": "^5.9.17",
+    "morgan": "^1.10.0",
     "supertest": "^4.0.2"
   }
 }
