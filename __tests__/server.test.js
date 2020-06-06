@@ -1,6 +1,5 @@
-'use strict';
-
 const {server} = require('../lib/server.js');
+
 const supertest = require('supertest');
 const mochServer = supertest(server);
 
@@ -54,5 +53,6 @@ describe('404 middleware module',()=>{
     return mochServer.delete('/api/v1/categories/1').then((result)=>{
       expect(result.status).toBe(200);
     });
+
   });
 });

@@ -6,11 +6,21 @@
 # lab name
   - api-server
 
+# api-serve
+# LAB - Class 02
+
+# Author: 
+  -  Amal Almomani
+# lab name
+  - api-server
+
 ## pull request link
+
   - [pull request](https://github.com/amal-401-advanced-javascript/api-serve/pull/11)
+
 ## Links and Resources
-  - (swagger hub page)[https://app.swaggerhub.com/apis/AmalMAlmomani/api-server-lab-06/0.1]\
-  - (Swagger documentation)[https://app.swaggerhub.com/apis-docs/AmalMAlmomani/api-server-lab-06/0.1]
+  - [swagger hub page](https://app.swaggerhub.com/apis/AmalMAlmomani/api-server-lab-06/0.1) 
+  - [Swagger documentation](https://app.swaggerhub.com/apis-docs/AmalMAlmomani/api-server-lab-06/0.1)
 
 ## Modules
   - Node.js
