@@ -6,13 +6,6 @@
 # lab name
   - api-server
 
-# api-serve
-# LAB - Class 02
-
-# Author: 
-  -  Amal Almomani
-# lab name
-  - api-server
 
 ## pull request link
 
